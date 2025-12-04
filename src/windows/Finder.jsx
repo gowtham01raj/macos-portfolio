@@ -28,8 +28,8 @@ const Finder = () => {
             onClick={() => setActiveLocation(item)}
             className={clsx(
               item.id === activeLocation.id
-                ? "active bg-blue-100 text-blue-700 flex items-center gap-2 px-3 py-2 rounded-md cursor-pointer transition-colors"
-                : "not active text-gray-700 hover:bg-gray-200 flex items-center gap-2 px-3 py-2 rounded-md cursor-pointer transition-colors"
+                ? "bg-blue-100 text-blue-700 flex items-center gap-2 px-3 py-2 rounded-md cursor-pointer transition-colors"
+                : "text-gray-700 hover:bg-gray-200 flex items-center gap-2 px-3 py-2 rounded-md cursor-pointer transition-colors"
             )}
           >
             <img src={item.icon} className="w-4" alt={item.name} />
