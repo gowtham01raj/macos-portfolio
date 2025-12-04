@@ -10,7 +10,7 @@ const NavBar = () => {
         <ul>
           {navLinks.map(({ id, name }) => (
             <li key={id}>
-              <p>{name}</p>
+              <p className="font-semibold">{name}</p>
             </li>
           ))}
         </ul>
