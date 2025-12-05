@@ -42,7 +42,7 @@ const Finder = () => {
 
   return (
     <>
-      <div className="absolute w-[600px] left-40 top-20 shadow-2xl drop-shadow-2xl overflow-hidden rounded-xl">
+      <div className="w-full h-[500px] flex flex-col shadow-2xl drop-shadow-2xl overflow-hidden rounded-xl">
         <div id="window-header">
           <WindowControls target="finder" />
           <Search className="icon" />

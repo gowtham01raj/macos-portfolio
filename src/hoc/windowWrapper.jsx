@@ -22,7 +22,7 @@ const windowWrapper = (Component, windowKey) => {
           opacity: 0,
           y: 40,
         },
-        { scale: 1, opacity: 1, y: 0, duration: 5, ease: "power3.out" }
+        { scale: 1, opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }
       );
     }, [isOpen]);
 
